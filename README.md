@@ -1,7 +1,7 @@
 # Documentation Portfolio
 A curated collection of technical documentation artifacts by Gouri, Senior Technical Writer.
 ## About Me
-Senior technical writer with over 16 years of experience in platform documentation, content strategy, AI-assisted content workflow, and video production.
+Senior technical writer with over 16 years of experience in platform documentation, content strategy, and video production. Experienced in independently driving AI-assisted workflows across documentation and video production - using AI for scripting, narration, transcription, and content generation to deliver faster, higher-quality output.
 ## Skills Snapshot
 |Area|Tools|
 |---|---|
