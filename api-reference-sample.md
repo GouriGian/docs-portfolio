@@ -1,47 +1,30 @@
-# Payment API Reference
-The Payment API allows applications to initiate, retrieve, and manage payment transactions. It follows REST principles and returns responses in JSON format.
-
-**Base URL:** `https://api.example.com/v1`
-
-**Version:** 1.0
-
-**Format:** JSON
+# REST Countries API - Beginner's Guide
 ## Overview
-The Payment API allows applications to initiate, retrieve, and manage payment transactions. It follows REST principles and returns responses in JSON format.
+The REST Countries API lets you retrive information about any country in the world, without sign-up, API key, or any expense.
 
-**Base URL:** `https://api.example.com/v1`
+Send a request with a country name and receive most details about that country. For example, you can check the country  details like the capital city, population, currency, and more.
 
-**Version:** 1.0
+**Base URL:** `https://restcountries.com/v3.1`
 
 **Format:** JSON
+
 ## Authentication
-The Payment API uses API key authentication. Include your API key in the request header for every call.
-**Example:**
+None. No sign-up or API key needed.
 
-```http
-GET /payments HTTP/1.1
-Host: api.example.com
-Authorization: Bearer abc123xyz
-```
-**Header:** `Authorization: Bearer YOUR_API_KEY`
-
-**Example:**
-
-```http
-GET /payments HTTP/1.1
-Host: api.example.com
-Authorization: Bearer abc123xyz
-```
-## Base URL
-All API requests are made to the following base URL:
-
-`https://api.example.com/v1`
-
-Append the endpoint path to this URL for each request.
-For example: `https://api.example.com/v1/payments`
 ## Endpoints
-### GET /payments
-### POST /payments
-## Request Parameters
-## Response Codes
-## Error Handling
+
+### Get Country by Name
+Retrieve detailed information about a country.
+
+**Method:** `GET`
+
+**Endpoint:** `/name/{country}`
+
+**Full URL:** `https://restcountries.com/v3.1/name/{country}`  
+where *{country}* is a placeholder for any country name. For example, replace it with *France*, *Japan*, *India*, or any other.
+
+> **Tip:** Use the full official country name for accurate results.
+> For example, *america* returns United States of America, but
+> *united states* returns unexpected results, like US Virgin Islands.
+
+**Example:** `https://restcountries.com/v3.1/name/germany`
