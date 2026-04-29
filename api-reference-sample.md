@@ -28,3 +28,49 @@ where *{country}* is a placeholder for any country name. For example, replace it
 > *united states* returns unexpected results, like US Virgin Islands.
 
 **Example:** `https://restcountries.com/v3.1/name/germany`
+
+### Sample Response
+Here is a partial response for *germany*:
+```json
+{
+"name": {
+"common": "Germany",
+"official": "Federal Republic of Germany"
+},
+"capital": ["Berlin"],
+
+"population": 83491249,
+
+"region": "Europe",
+
+"currencies": {
+    "EUR": {
+        "symbol": "€",
+        "name": "euro"
+        }
+     },
+"languages": {
+    "deu": "German"
+     }
+}
+```
+
+### Response Fields
+|Field|Type|Description|
+|---|---|---|
+|`name.common`|String|The commonly used name of the country|
+|`name.official`|String|The official legal name of the country|
+|`capital`|Array|List of capital cities|
+|`population`|Number|Total population count|
+|`region`|String|Geographic region, for example Europe or Asia|
+|`currencies`|Object|Currency details including symbol and name|
+|`languages`|Object|Official language spoken in the country|
+
+## Error Codes
+|Status Code|Meaning|Common Causes|
+|---|---|---|
+|`200`|Success|Request was valid and data was returned|
+|`404`|Not Found|Country name not recognized or misspelled|
+> **Tip:** If you receive a 404 error, check the spelling of your
+> country name. Use the full official name, for example,
+> *united kingdom* instead of *england*.
