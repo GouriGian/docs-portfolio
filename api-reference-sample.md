@@ -67,10 +67,10 @@ Here is a partial response for *germany*:
 |`languages`|Object|Official language spoken in the country|
 
 ## Error Codes
-|Status Code|Meaning|Common Causes|Resolution|
+|Status Code|Meaning|Common Cause|Resolution|
 |---|---|---|---|
-|`200`|Success|Request was valid and data was returned|No action required|
-|`404`|Not Found|Misspelled country name or incorrect URL|Check and fix any spelling error in the url and/or the country name|
+|`200`|Success|Valid Request|No action required|
+|`404`|Not Found|Incorrect URL/country name|Fix spelling errors in the URL/country name|
 
 > **Note:** Some countries are recognised by specific names only.
 > For example, *united kingdom* returns correct results,
