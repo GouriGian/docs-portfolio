@@ -71,6 +71,7 @@ Here is a partial response for *germany*:
 |---|---|---|---|
 |`200`|Success|Valid Request|No action required|
 |`404`|Not Found|Incorrect URL/country name|Fix spelling errors in the URL/country name|
+|`502`|Bad Gateway|Server Unavailable|Try again later|
 
 > **Note:** Some countries are recognised by specific names only.
 > For example, *united kingdom* returns correct results,
