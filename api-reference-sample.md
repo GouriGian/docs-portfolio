@@ -67,10 +67,11 @@ Here is a partial response for *germany*:
 |`languages`|Object|Official language spoken in the country|
 
 ## Error Codes
-|Status Code|Meaning|Common Causes|
-|---|---|---|
-|`200`|Success|Request was valid and data was returned|
-|`404`|Not Found|Country name not recognized or misspelled|
-> **Tip:** If you receive a 404 error, check the spelling of your
-> country name. Use the full official name, for example,
-> *united kingdom* instead of *england*.
+|Status Code|Meaning|Common Causes|Resolution|
+|---|---|---|---|
+|`200`|Success|Request was valid and data was returned|No action required|
+|`404`|Not Found|Misspelled country name or incorrect URL|Check and fix any spelling error in the url and/or the country name|
+
+> **Note:** Some countries are recognised by specific names only.
+> For example, *united kingdom* returns correct results,
+> whereas *england* returns a 404 error.
