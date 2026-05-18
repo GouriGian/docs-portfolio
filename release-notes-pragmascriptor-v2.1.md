@@ -6,7 +6,10 @@
 ## Overview
 PragmaScriptor is an AI-powered documentation assistant for technical writers and developer teams that bridges the gap between code and documentation through intelligent collaboration. It works directly within VS Code and integrates natively with GitHub, bringing intelligent documentation support into your existing workflow.
 
-Version 2.1.0 strengthens accuracy and collaboration — introducing smarter content validation, automated SME routing, and real-time detection of outdated documentation.
+Version 2.1.0 strengthens accuracy and collaboration by introducing 
+- smarter content validation
+- automated SME routing, and
+- real-time detection of outdated documentation.
 
 ### Key Highlights
 [Highlight 1]
